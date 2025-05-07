@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: rgb(221, 255, 0);
+  }
+  #restart {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 187, 255);
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #333;
+  }
+  
+  .cell:hover {
+    background-color: rgb(0, 255, 13);
+  }
+  #restart:hover {
+    background-color: rgb(0, 255, 13);
+  }
+  #easy:hover {
+    background-color: rgb(0, 255, 13);
+  }
+  #hard:hover {
+    background-color: rgb(0, 255, 13);
+  }
+  
+  
+  
+  #mode-buttons {
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 255);
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(255, 140, 0);
+  }
+  
